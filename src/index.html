@@ -8,10 +8,37 @@
   <title>Vitality Gym</title>
 </head>
 
-<body>
-  <h1 class="text-3xl font-bold underline text-lime-600 font-main-font">
-    Hello world!
-  </h1>
+<body class="bg-bg-color01 w-full h-auto">
+  <img class="z-0 w-full h-auto opacity-85" src="./img/bg.png" alt="Foto da Academia">
+  <header class="bg-transparent w-full px-24 flex justify-between items-center h-32 z-20 fixed top-0">
+    <img src="./img/pink_logo.svg" alt="Logo Vitality Gym">
+    <div class="flex gap-x-12 font-main-font font-semibold text-2xl uppercase tracking-wider">
+      <a class="text-main-color  hover:underline" href="#">esportes</a>
+      <a class="text-main-color  hover:underline" href="#">espaço</a>
+      <a class="text-main-color  hover:underline" href="#">profissionais</a>
+      <a class="text-main-color  hover:underline" href="#">institucional</a>
+    </div>
+    <a class="text-text-color bg-main-color px-5 py-3 rounded-md font-main-font font-semibold text-2xl uppercase" href="#">login</a>
+  </header>
+
+  <article class="flex flex-col items-start justify-center mx-24" aria-label="esportes">
+    <h1 class="font-main-font text-main-color font-normal text-5xl mt-12 uppercase pb-24">esportes</h1>
+    <div class="w-full flex justify-center gap-x-6 pb-24">
+      <div class="relative">
+        <h2 class=" w-full uppercase text-main-color font-secondary-font absolute font-semibold text-4xl z-10 top-7 text-center">musculação</h2>
+        <img class="object-cover w-full h-full" src="./img/img_musc.png" alt="homem fazendo musculação">
+      </div>
+      <div class="relative">
+        <h2 class=" w-full uppercase text-main-color font-secondary-font absolute font-semibold text-4xl z-10 top-7 text-center">natação</h2>
+        <img class="object-cover w-full h-full" src="./img/img_nat.png" alt="pessoa nadando">
+      </div>
+      <div class="relative">
+        <h2 class=" w-full uppercase text-main-color font-secondary-font absolute font-semibold text-4xl z-10 top-7 text-center">boxe</h2>
+        <img class="object-cover w-full h-full" src="./img/img_boxe.png" alt="mulher lutando boxe">
+      </div>
+    </div>
+
+  </article>
 </body>
 
 </html>

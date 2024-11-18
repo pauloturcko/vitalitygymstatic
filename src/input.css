@@ -30,4 +30,18 @@
   font-style: normal;
 }
 
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #353535;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E40046;
+  border-radius: 3px; 
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;600&family=Lato:wght@300;400&display=swap');
