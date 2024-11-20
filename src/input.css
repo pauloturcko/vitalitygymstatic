@@ -30,6 +30,11 @@
   font-style: normal;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 ::-webkit-scrollbar {
   width: 6px;
@@ -44,4 +49,7 @@
   border-radius: 3px; 
 }
 
+html {
+  scroll-behavior: smooth;
+}
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;600&family=Lato:wght@300;400&display=swap');

@@ -9,20 +9,21 @@
   <title>Vitality Gym</title>
 </head>
 
+
 <body class="bg-bg-color01 w-full h-auto">
   <img class="z-0 w-full h-auto opacity-85" src="./img/bg.png" alt="Foto da Academia">
   <header class="bg-transparent w-full px-24 flex justify-between items-center h-32 z-20 fixed top-0">
-    <img src="./img/pink_logo.svg" alt="Logo Vitality Gym">
+    <a href="#"><img src="./img/pink_logo.svg" alt="Logo Vitality Gym"></a>
     <div class="flex gap-x-12 font-main-font font-semibold text-2xl uppercase tracking-wider">
-      <a class="text-main-color  hover:underline" href="#">esportes</a>
-      <a class="text-main-color  hover:underline" href="#">espaço</a>
-      <a class="text-main-color  hover:underline" href="#">profissionais</a>
-      <a class="text-main-color  hover:underline" href="#">institucional</a>
+      <a class="text-main-color  hover:underline" href="#esportes">esportes</a>
+      <a class="text-main-color  hover:underline" href="#espaco">espaço</a>
+      <a class="text-main-color  hover:underline" href="#equipe">profissionais</a>
+      <a class="text-main-color  hover:underline" href="#institucional">institucional</a>
     </div>
     <a class="text-text-color bg-main-color px-5 py-3 rounded-md font-main-font font-semibold text-2xl uppercase" href="#">login</a>
   </header>
 
-  <article class="flex flex-col items-start justify-center mx-24" aria-label="esportes">
+  <article id="esportes" class="flex flex-col items-start justify-center mx-24" aria-label="esportes">
     <h1 class="font-main-font text-main-color font-normal text-5xl mt-12 uppercase pb-24">esportes</h1>
     <div class="w-full flex justify-center gap-x-6 pb-24">
       <div class="relative">
@@ -41,7 +42,7 @@
 
   </article>
 
-  <article class="flex flex-col justify-center items-center mx-24" aria-label="combos">
+  <article id="combos" class="flex flex-col justify-center items-center mx-24" aria-label="combos">
     <h1 class="font-main-font text-main-color font-normal text-5xl mt-12 uppercase pb-24 w-full">combos</h1>
     <dl class="definition-list flex flex-col w-3/4 h-auto gap-y-5 mb-48">
       <dt class="definition-title text-text-color font-secondary-font font-medium text-xl uppercase flex justify-between cursor-pointer">musculação + natação <i class="fa-solid fa-chevron-down text-main-color w-6 h-2"></i></dt>
@@ -120,6 +121,35 @@
         </ul>
       </dd>
     </dl>
+  </article>
+
+  <article id="espaco" class="flex flex-col items-start justify-center mx-24" aria-label="nosso espaço">
+    <h1 class="font-main-font text-main-color font-normal text-5xl mt-12 uppercase pb-24">nosso espaço</h1>
+    <div class="w-full flex gap-x-10 py-12 overflow-x-auto">
+      <img src="./img/gym01.png" alt="foto mostrando os pesos livres da academia" class="flex-shrink-0">
+      <img src="./img/gym02.png" alt="foto mostrando um espaço amplo do ginásio da academia" class="flex-shrink-0">
+      <img src="./img/gym03.png" alt="piscina de natação" class="flex-shrink-0">
+      <img src="./img/gym04.png" alt="foto de drone da piscina de natação" class="flex-shrink-0">
+      <img src="./img/gym05.png" alt="ring de boxe" class="flex-shrink-0">
+    </div>
+  </article>
+
+  <article id="equipe" class="flex flex-col items-start justify-center mx-24" aria-label="nosso espaço">
+    <h1 class="font-main-font text-main-color font-normal text-5xl mt-12 uppercase pb-24">equipe</h1>
+    <div class="flex w-full justify-center gap-x-7 pb-24">
+      <img src="./img/coach_01.png" alt="Coach Jhones">
+      <img src="./img/coach_02.png" alt="Coach Mary">
+      <img src="./img/coach_03.png" alt="Coach Emily">
+      <img src="./img/coach_04.png" alt="Coach Peter">
+    </div>
+  </article>
+
+  <article id="institucional" class="flex flex-col items-center justify-center mx-24" aria-label="institucional">
+    <h1 class="font-main-font text-main-color font-normal text-5xl mt-12 uppercase pb-24 w-full text-start">institucional</h1>
+    <div class="flex flex-col w-3/4 justify-center gap-x-7 pb-24 gap-y-12">
+      <p class="font-secondary-font font-thin text-text-color text-xl text-center">Na Vitality Gym, acreditamos que saúde e bem-estar são essenciais para uma vida equilibrada. Nossa missão é oferecer um espaço acolhedor e motivador, com equipamentos de ponta e uma equipe de profissionais dedicados a ajudar você a alcançar seus objetivos. Seja para melhorar sua forma física, fortalecer sua mente ou adotar um estilo de vida mais saudável, estamos aqui para apoiar cada passo da sua jornada. Venha descobrir seu potencial e viva com mais Vitality!</p>
+      <img class="self-center w-72 h-20" src="./img/var_02.png" alt="logo da academia">
+    </div>
   </article>
 
   <script src="./js/main.js" type="module"></script>
